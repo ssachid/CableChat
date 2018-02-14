@@ -14,4 +14,5 @@
 //= require jquery
 //= require twitter/bootstrap
 //= require turbolinks
+//= require cable
 //= require_tree .
