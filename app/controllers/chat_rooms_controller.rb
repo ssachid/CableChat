@@ -20,6 +20,7 @@ class ChatRoomsController < ApplicationController
     else
       flash[:error] = "Error creating chat room"
       render :new
+    end
   end
 
   private
