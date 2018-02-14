@@ -14,3 +14,30 @@
  *= require_tree .
  *= require_self
  */
+
+
+.text {
+  color: #d9534f;
+}
+
+.message {
+  color: #428bca;
+}
+
+.border {
+  border: 1px dotted black;
+  padding: 3px;
+}
+
+.logout {
+  padding: 5px;
+}
+
+.user-name {
+  padding: 5px;
+}
+
+.btn-primary {
+  margin-top: 20px;
+  font-size: 20px;
+}

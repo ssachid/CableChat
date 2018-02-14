@@ -1,7 +1,5 @@
-  <p>
+  <p class="border">
     <span>
-      <%= message.user.name %> at <%= message.timestamp %> says
+      <span class="text"><b><%= message.user.name %> : <%= message.timestamp %></b>:</span> <span class="message"><em><%= message.body %></em></span>
     </span>
-    <br>
-    <%= message.body %>
   </p>
